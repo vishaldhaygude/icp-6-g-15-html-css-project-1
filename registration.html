@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        .body{
+            background-color:#cccccc;
+        }
+
+        .Heading_form{
+        margin-left: 100px;
+        }
+
+        .registration_container{
+        margin-left: 100px;
+        }
+
+        .registration_form{
+            width: 300px;
+            height: 30px;
+            font-size: 18px;
+        }
+
+        .Comments{
+            width: 300px;
+            height: 90px;
+          }
+
+        .btn{
+            width: 300px;
+            height: 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border: solid 2px black;
+            border-radius: 50px;
+        }
+
+        .btn:hover{
+            background-color:#ffb3d1;
+        }
+       
+        .container{
+     display: block;
+     width: 580px;
+     
+        }
+
+        .img_container{  
+            height:100px ;
+        }
+        .container_form{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="container_form">
+    <div class="container">
+
+    <h1 class="Heading_form">Registration Form</h1>
+    <form class="registration_container">
+        <h4>Name</h4>
+        <input type="text" placeholder="Enter your name" required class="registration_form">
+        <h4>Email</h4>
+        <input type="email"placeholder="Enter your email" required class="registration_form">
+        <h4>Password</h4>
+        <input type="password"placeholder="Enter your Password" required class="registration_form">
+        <h4>Phone Number</h4>
+        <input type="number"placeholder="Enter your Number" required class="registration_form">
+        <h4>Gender</h4>
+        <input type="radio" name="gender" id="female">male 
+        <input type="radio"name="gender"id="female">Female
+        <h4>Address</h4>
+        <input type="text"placeholder="Enter your Address"class="registration_form"><br>
+        <h4>Select Dance</h4>
+        <select class="registration_form">
+             <option>Contemporary</option>
+             <option>Wacking</option>
+             <option>Classical</option>
+             <option>Bollywood</option>
+       </select><br><br>
+       
+     <h4> Start Date</h4>
+      <input type="date"class="registration_form">
+      <h4>Batch Time</h4>
+      <input type="time"class="registration_form">
+
+      <h3>Comments</h3>
+      <input type="text" class="Comments">
+      <br><br>
+      <button class="btn">Submit</button>
+    </form>
+</div>
+
+<div class="img_container">
+    <img src="dance photos.png">
+    <img src="aditya-ali-SzI4No8rQ14-unsplash-removebg-preview.png">
+    <img src="AdobeStock_477264959_Preview-removebg-preview.png">
+    <img src="shlomi-platzman-VF0dgmBSf9Q-unsplash-removebg-preview.png">
+    <img src="">
+    <img src="">
+</div>
+</div>
+</span>
+</body>
+</html>
